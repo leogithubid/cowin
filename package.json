@@ -1,0 +1,33 @@
+{
+  "name": "cowin",
+  "version": "1.0.0",
+  "description": "COVID-19 vaccination tracker",
+  "main": "bin/cindex.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/leogithubid/nabheet-madan.git"
+  },
+  "keywords": [
+    "cowin"
+  ],
+  "author": "liyon",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/leogithubid/nabheet-madan/issues"
+  },
+  "homepage": "https://github.com/leogithubid/nabheet-madan#readme",
+  "dependencies": {
+    "axios": "^0.21.1",
+    "chalk": "^4.1.1",
+    "commander": "^7.2.0",
+    "inquirer": "^8.0.0",
+    "node-notifier": "^9.0.1",
+    "tty-table": "^4.1.3"
+  },
+  "bin": {
+    "cowin" : "./bin/index.js"
+  }
+}
